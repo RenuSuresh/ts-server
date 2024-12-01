@@ -5,7 +5,7 @@ const port = process.env.PORT || 4009;
 
 // @ts-ignore
 app.get("/", (_req: Request, res: Response) => {
-	return res.send("Express Typescript on Vercel");
+	return res.send("Express Typescript on Vercel this is new");
 });
 // @ts-ignore
 app.get("/ping", (_req: Request, res: Response) => {
